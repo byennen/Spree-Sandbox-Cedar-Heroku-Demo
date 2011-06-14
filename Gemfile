@@ -7,3 +7,8 @@ gem 'spree', :git => 'git://github.com/spree/spree.git'
 group :production do
   gem 'pg'
 end
+
+group :development do
+  gem 'heroku'
+  gem 'taps'
+end
